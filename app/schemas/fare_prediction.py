@@ -8,11 +8,11 @@ class FarePredictionRequest(BaseModel):
 
     Destination:str
 
-    Total_Stops:str
+    Total_Stops:int
 
     Date_of_Journey:str
     Dep_Time:str
     Arrival_Time:str
-    Duration:str
+    Duration:int
     Route:str
     Additional_Info:str
