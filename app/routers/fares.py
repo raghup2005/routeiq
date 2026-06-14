@@ -23,9 +23,8 @@ def create_fare(
 
     db.add(obj)
 
-    db.commit()
-
     db.refresh(obj)
+    db.commit()
 
     return obj
 
