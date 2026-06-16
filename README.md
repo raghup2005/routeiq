@@ -28,6 +28,7 @@ Built using FastAPI, XGBoost, Streamlit, and PostgreSQL, RouteIQ helps analyze a
 * Route-level fare analysis
 * Top-performing routes
 * Most expensive and cheapest routes
+* easy to choose
 
 ### Executive Dashboard
 
