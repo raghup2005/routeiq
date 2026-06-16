@@ -6,7 +6,7 @@ from app.services.fare_service import (
 
 router = APIRouter()
 
-@router.get("/fare/{fare}")
+@router.get("/Fare/{fare}")
 def fare_analysis(fare: float):
 
     return analyze_fare(
